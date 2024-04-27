@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+.header-1{
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
+#navbar-1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: white;
+    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    
+}
+
+.app-badge {
+    height: 3rem;
+}
+.bi-phone {
+    font-size: 5rem;
+    color: blue;
+}
+.phone-1-box {
+    max-width: 30rem;
+}
+.header-1 .header-1-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.header-1 .header-1-phone .circle {
+    width: 70%;
+    display: block;
+    position: absolute;
+    }
+.aside-1 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,30,36,1) 0%, rgba(0,212,255,1) 100%);
+
+}
+
+
+.section-1 .section-1-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.header-1 .header-1-phone .circle .gradient-start-color {
+    stop-color: blue;
+    stop-color: blueviolet;
+}
+
+.header-1 .header-1-phone .circle {
+    fill: url(#circlegradient);
+}
+.tnw-img {
+    height: 3rem;
+}
+.phone-box-2 {
+    max-width: 50rem;
+    margin-left: auto;
+    
+}
+.section-1 .section-phone-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.section-1 .section-phone-1 .circle {
+    position: absolute;
+    display: block;
+    left: 0%;
+    width: 70%;
+}
+.section-1 .section-phone-1 .circle .gradient-start-color {
+    stop-color: blue;
+    stop-color: blueviolet;
+}
+.section-1 .section-phone-1 .circle {
+    fill: url(#circlegradient);
+}
+.pbx-2-icons {
+    font-size: 4rem;
+    color: blue;
+}
+.img-deg {
+    max-width: 25rem;
+}
+.stop-start {
+background-image: url(https://cdn.webrazzi.com/uploads/2016/06/online-kafa-topu-poster-1.png);
+position: relative;
+background-position: center;
+background-size: cover;
+padding: 15rem 0;
+}
+section.stop-start::before {
+    content: "" ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5)    
+}
+.start-stop-write {
+    z-index: 1;
+    position: relative;
+}
+.for-download { 
+    background: rgb(9,9,121);
+background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,30,36,1) 0%, rgba(0,212,255,1) 100%);} 
+footer a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.5);
+}
+#message {
+    height: 10rem;
+}
+.bg-gradient {
+    background-image: linear-gradient(to right, red , yellow);
+}
+#grad1 {
+    height: 80px;
+    background-color: blue; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, blue , blueviolet); }
+.header-1 .header-1-phone .shape-1 {
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    bottom: 15%;
+    left: 10%;
+    fill: blue;
+    transform: rotate(-10deg);
+}
+.header-1 .header-1-phone .shape-2   {
+    position: absolute;
+    height: 0.75rem;
+    width: 0.75rem;
+    fill: blue;
+    top: 15%;
+    right: 10%
+}
+.section-1 .section-phone-1 .shape-2 {
+    position: absolute;
+    height: 0.75rem;
+    width: 0.75rem;
+    fill: blue;
+    bottom: 15%;
+    left: 10%;
+}
+
+.modal-backdrop {
+    z-index: 50 !important;
+}
+
+
